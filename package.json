@@ -1,6 +1,6 @@
 {
   "name": "@eway-crm/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint rules for eWay-CRM",
   "main": "index.js",
   "scripts": {
