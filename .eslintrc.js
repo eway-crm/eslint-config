@@ -7,7 +7,6 @@ module.exports = {
         "no-undef-init": "error",
         "no-irregular-whitespace": "error",
         "no-throw-literal": "error",
-        "react/self-closing-comp": "error",
         "@typescript-eslint/member-delimiter-style": "error",
         "@typescript-eslint/no-inferrable-types": "error",
         "@typescript-eslint/no-unnecessary-type-assertion": "error",
