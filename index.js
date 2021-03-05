@@ -1,6 +1,7 @@
 module.exports = {
     "extends": [
         "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
     ],
     "rules": {
         "no-var": "error",
@@ -8,7 +9,7 @@ module.exports = {
         "no-irregular-whitespace": "error",
         "no-throw-literal": "error",
         "@typescript-eslint/member-delimiter-style": "error",
-        "@typescript-eslint/no-inferrable-types": "error",
+        "@typescript-eslint/no-inferrable-types": "off",
         "@typescript-eslint/no-unnecessary-type-assertion": "error",
         "@typescript-eslint/restrict-template-expressions": [
             "error",
