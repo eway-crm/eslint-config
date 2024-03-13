@@ -20,13 +20,21 @@ module.exports = {
             }
         ],
         "semi": "off",
-        "@typescript-eslint/semi": [ "error" ],
-        "@typescript-eslint/no-extra-non-null-assertion": [ "error" ],
-        "@typescript-eslint/no-for-in-array": [ "error" ],
+        "@typescript-eslint/semi": ["error"],
+        "@typescript-eslint/no-extra-non-null-assertion": ["error"],
+        "@typescript-eslint/no-for-in-array": ["error"],
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/no-unsafe-return": "error",
         "@typescript-eslint/no-explicit-any": "error",
-        "@typescript-eslint/no-non-null-assertion": "off"
-      }
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/unbound-method": [
+            "error",
+            {
+                "ignoreStatic": true
+            }
+        ],
+        "@typescript-eslint/no-unused-vars": "warn",
+        "prefer-const": "warn"
+    }
 };
