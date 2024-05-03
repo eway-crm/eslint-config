@@ -35,6 +35,7 @@ module.exports = {
             }
         ],
         "@typescript-eslint/no-unused-vars": "warn",
-        "prefer-const": "warn"
+        "prefer-const": "warn",
+        "@typescript-eslint/consistent-type-imports": "warn"
     }
 };
