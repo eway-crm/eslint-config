@@ -4,7 +4,7 @@
 ## Installation
 
 ```
-npm i --save-dev eslint@8 @eway-crm/eslint-config @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm i --save-dev eslint@8 @eway-crm/eslint-config @typescript-eslint/parser@7 @typescript-eslint/eslint-plugin@7
 ```
 
 ## Configuration
