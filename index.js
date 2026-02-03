@@ -1,9 +1,6 @@
 module.exports = {
-    "extends": [
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking"
-    ],
-    "rules": {
+    extends: ["plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/recommended-requiring-type-checking"],
+    rules: {
         "no-var": "error",
         "no-undef-init": "error",
         "no-irregular-whitespace": "error",
@@ -14,12 +11,12 @@ module.exports = {
         "@typescript-eslint/restrict-template-expressions": [
             "error",
             {
-                "allowNumber": true,
-                "allowBoolean": true,
-                "allowNullish": true
-            }
+                allowNumber: true,
+                allowBoolean: true,
+                allowNullish: true,
+            },
         ],
-        "semi": "off",
+        semi: "off",
         "@typescript-eslint/semi": ["error"],
         "@typescript-eslint/no-extra-non-null-assertion": ["error"],
         "@typescript-eslint/no-for-in-array": ["error"],
@@ -31,11 +28,32 @@ module.exports = {
         "@typescript-eslint/unbound-method": [
             "error",
             {
-                "ignoreStatic": true
-            }
+                ignoreStatic: true,
+            },
         ],
         "@typescript-eslint/no-unused-vars": "warn",
         "prefer-const": "warn",
-        "@typescript-eslint/consistent-type-imports": "warn"
-    }
+        "@typescript-eslint/consistent-type-imports": "warn",
+        "object-curly-newline": [
+            "error",
+            {
+                ObjectExpression: {
+                    multiline: true,
+                    consistent: true,
+                },
+            },
+        ],
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                max: 1,
+                maxEOF: 0,
+                maxBOF: 0,
+            },
+        ],
+        "key-spacing": ["error", { beforeColon: false, afterColon: true, mode: "strict" }],
+        "no-multi-spaces": "error",
+        "no-trailing-spaces": "error",
+        "padding-line-between-statements": ["error", { blankLine: "never", prev: "return", next: "*" }],
+    },
 };
