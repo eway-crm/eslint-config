@@ -5,6 +5,7 @@ module.exports = {
         "no-undef-init": "error",
         "no-irregular-whitespace": "error",
         "no-throw-literal": "error",
+        "eqeqeq": ["error", "always"],
         "@typescript-eslint/member-delimiter-style": "error",
         "@typescript-eslint/no-inferrable-types": "off",
         "@typescript-eslint/no-unnecessary-type-assertion": "error",
